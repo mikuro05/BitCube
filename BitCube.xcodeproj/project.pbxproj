@@ -11,12 +11,16 @@
 		2261390117A21C1A00EF4A47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 226138FF17A21C1A00EF4A47 /* InfoPlist.strings */; };
 		2261390317A21C1A00EF4A47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261390217A21C1A00EF4A47 /* main.m */; };
 		2261390717A21C1A00EF4A47 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2261390517A21C1A00EF4A47 /* Credits.rtf */; };
-		2261390A17A21C1A00EF4A47 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261390917A21C1A00EF4A47 /* AppDelegate.m */; };
+		2261390A17A21C1A00EF4A47 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2261390917A21C1A00EF4A47 /* AppDelegate.mm */; };
 		2261390D17A21C1A00EF4A47 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2261390B17A21C1A00EF4A47 /* MainMenu.xib */; };
 		2261391517A21C1A00EF4A47 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261391417A21C1A00EF4A47 /* SenTestingKit.framework */; };
 		2261391617A21C1A00EF4A47 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226138F617A21C1A00EF4A47 /* Cocoa.framework */; };
 		2261391E17A21C1A00EF4A47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2261391C17A21C1A00EF4A47 /* InfoPlist.strings */; };
 		2261392117A21C1A00EF4A47 /* BitCubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261392017A21C1A00EF4A47 /* BitCubeTests.m */; };
+		2261392C17A2207500EF4A47 /* myOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261392B17A2207500EF4A47 /* myOpenGLView.m */; };
+		2261392D17A2207500EF4A47 /* myOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2261392B17A2207500EF4A47 /* myOpenGLView.m */; };
+		2261393017A2209900EF4A47 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261392E17A2209900EF4A47 /* GLUT.framework */; };
+		2261393117A2209900EF4A47 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2261392F17A2209900EF4A47 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,7 @@
 		2261390417A21C1A00EF4A47 /* BitCube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BitCube-Prefix.pch"; sourceTree = "<group>"; };
 		2261390617A21C1A00EF4A47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		2261390817A21C1A00EF4A47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2261390917A21C1A00EF4A47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2261390917A21C1A00EF4A47 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		2261390C17A21C1A00EF4A47 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		2261391317A21C1A00EF4A47 /* BitCubeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitCubeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2261391417A21C1A00EF4A47 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -49,6 +53,10 @@
 		2261391D17A21C1A00EF4A47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2261391F17A21C1A00EF4A47 /* BitCubeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitCubeTests.h; sourceTree = "<group>"; };
 		2261392017A21C1A00EF4A47 /* BitCubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitCubeTests.m; sourceTree = "<group>"; };
+		2261392A17A2207500EF4A47 /* myOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myOpenGLView.h; sourceTree = "<group>"; };
+		2261392B17A2207500EF4A47 /* myOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myOpenGLView.m; sourceTree = "<group>"; };
+		2261392E17A2209900EF4A47 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		2261392F17A2209900EF4A47 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2261393017A2209900EF4A47 /* GLUT.framework in Frameworks */,
+				2261393117A2209900EF4A47 /* OpenGL.framework in Frameworks */,
 				226138F717A21C1A00EF4A47 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +104,8 @@
 		226138F517A21C1A00EF4A47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2261392E17A2209900EF4A47 /* GLUT.framework */,
+				2261392F17A2209900EF4A47 /* OpenGL.framework */,
 				226138F617A21C1A00EF4A47 /* Cocoa.framework */,
 				2261391417A21C1A00EF4A47 /* SenTestingKit.framework */,
 				226138F817A21C1A00EF4A47 /* Other Frameworks */,
@@ -114,8 +126,10 @@
 		226138FC17A21C1A00EF4A47 /* BitCube */ = {
 			isa = PBXGroup;
 			children = (
+				2261392A17A2207500EF4A47 /* myOpenGLView.h */,
+				2261392B17A2207500EF4A47 /* myOpenGLView.m */,
 				2261390817A21C1A00EF4A47 /* AppDelegate.h */,
-				2261390917A21C1A00EF4A47 /* AppDelegate.m */,
+				2261390917A21C1A00EF4A47 /* AppDelegate.mm */,
 				2261390B17A21C1A00EF4A47 /* MainMenu.xib */,
 				226138FD17A21C1A00EF4A47 /* Supporting Files */,
 			);
@@ -262,7 +276,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2261390317A21C1A00EF4A47 /* main.m in Sources */,
-				2261390A17A21C1A00EF4A47 /* AppDelegate.m in Sources */,
+				2261390A17A21C1A00EF4A47 /* AppDelegate.mm in Sources */,
+				2261392C17A2207500EF4A47 /* myOpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2261392117A21C1A00EF4A47 /* BitCubeTests.m in Sources */,
+				2261392D17A2207500EF4A47 /* myOpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

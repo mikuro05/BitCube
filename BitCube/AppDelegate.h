@@ -7,8 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "myOpenGLView.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate>{
+    IBOutlet myOpenGLView       *glView;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
